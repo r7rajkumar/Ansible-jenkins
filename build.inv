@@ -1,4 +1,4 @@
 #build.inv
 
 [webservers]
-172.31.26.23 ansible_user=ec2-user 
+192.168.56.11 ansible_user=root
