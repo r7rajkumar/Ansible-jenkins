@@ -1,0 +1,9 @@
+---
+- hosts: webservers
+  become: True
+  tasks:
+     - name: "install the apache app"
+       yum:
+         name: "nginx present"
+         state: "present"
+         
